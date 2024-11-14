@@ -7,11 +7,11 @@ import { useEffect } from "react";
 
 export default function WelcomingScreen() {
   // on mounter redirect to home
-  useEffect(() => {
-    setTimeout(() => {
-      router.replace("/(tabs)/(home)");
-    }, 500);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     router.replace("/(tabs)/(home)");
+  //   }, 500);
+  // }, []);
   return (
     <Container>
       <ImageBackground
