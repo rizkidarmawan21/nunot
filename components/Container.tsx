@@ -31,6 +31,7 @@ export default function Container({ children, ...props }: Props) {
           return false;
         }}
         accessible={false}
+        {...props}
       >
         {children}
       </SafeAreaView>

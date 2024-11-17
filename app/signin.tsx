@@ -19,7 +19,6 @@ export default function SignInScreen() {
   });
 
   return (
-    // <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
     <Container>
       <ImageBackground
         source={require("../assets/images/bg.png")}
@@ -80,7 +79,7 @@ export default function SignInScreen() {
               gap: 16,
             }}
           >
-            <Link replace href="/signin" asChild>
+            <Link replace href="/(tabs)/(home)" asChild>
               <TouchableOpacity
                 style={{
                   backgroundColor: Colors.global.main,
@@ -117,6 +116,5 @@ export default function SignInScreen() {
         </View>
       </ImageBackground>
     </Container>
-    // </TouchableWithoutFeedback>
   );
 }
