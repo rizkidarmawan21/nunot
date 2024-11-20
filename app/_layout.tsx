@@ -49,6 +49,16 @@ export default function RootLayout() {
             <Stack.Screen name="signin" options={{ headerShown: false }} />
             <Stack.Screen name="signup" options={{ headerShown: false }} />
             <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+            <Stack.Screen
+              name="products/show"
+              options={{
+                headerTitle: "Product Detail",
+                headerTitleStyle: {
+                  fontFamily: "PoppinsSemiBold",
+                  fontSize: 16,
+                },
+              }}
+            />
             <Stack.Screen name="+not-found" />
           </Stack>
         </ThemeProvider>
